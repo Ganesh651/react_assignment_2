@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app-container{
+  background-color: #9ba9eb;
+  padding: 20px 100px;
   min-height: 100vh;
+}
+.app-logo{
+  height: 50px;
+}
+.form-container{
+  background-color: #5763a5;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.form{
+  background-color: #454f84;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+.password-manager{
+  height: 350px;
+  width: 350px;
+}
+.user-name-container{
+  background-color: white;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.logo{
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+.input{
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  border-left: 1px solid #94a3b8;
+  height: 35px;
+  padding: 10px;
+  width: 100%;
+}
+.password-heading{
+  color: #f8fafc;
+  font-size: 20px;
+}
+.add-btn-container{
+  text-align: right;
+}
+.add-btn{
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0;
+  outline: none;
+  height: 30px;
+  width: 60px;
+  border-radius: 3px;
+}
+.password-container{
+  background-color: #5763a5;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.password{
+  color: #ffffff;
+}
+.count{
+  background-color: transparent;
+  padding: 1px 3px;
+  color: #f97316;
+  font-weight: 500;
+}
+.search-container{
+  background-color: white;
+  height: 35px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.checbox-container{
+  text-align: right;
+}
+.show-password-text{
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.checkbox{
+ height: 15px;
+ width: 15px;
+ 
+}
+.no-passwords-conatiner{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.no-passwords-image{
+  height: 250px;
+  width: 400px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para{
+  color: #ffffff;
+}
+.passsword-list-container{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.stars{
+  
+  width: 100px;
 }

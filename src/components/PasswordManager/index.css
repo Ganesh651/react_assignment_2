@@ -1,0 +1,82 @@
+.password-list{
+      border: 1px solid #c3caea;
+      padding: 20px 10px;
+      width: 250px;
+      border-radius: 3px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 10px;
+}
+/* .logo-container{
+      
+} */
+
+.delete-button-container{
+      text-align: center;
+}
+.delete-btn{
+      background-color: transparent;
+      border: 0;
+      outline: none;
+}
+.delete-icon{
+      height: 20px;
+      width: 20px;
+}
+.details-container{
+      margin-left: 30px;
+}
+.logo {
+      color: #ffffff;
+      margin-left: 15px;
+      
+}
+.logo-1{
+      background-color: #f97316;
+      height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.logo-2 {
+      background-color: #10b981;
+      height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.logo-3 {
+      background-color: #f59e0b;
+      height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.logo-4 {
+      background-color: #14b8a6;
+}
+.logo-5 {
+      background-color: #b91c1c;
+      height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.logo-6{
+      background-color: #0ea5e9;
+      height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
